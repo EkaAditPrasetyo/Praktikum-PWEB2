@@ -3,14 +3,14 @@
 ## **1. JOBSHEET 1 Konsep Kelas dan Objek dalam PHP**
 
 Kelas dan Objek dalam PHP
+
 Kelas (Class)
-• Struktur atau blueprint yang mendefinisikan atribut dan metode yang dimiliki
-oleh objek.
+
+• Struktur atau blueprint yang mendefinisikan atribut dan metode yang dimiliki oleh objek.
 
 • Atribut atau properties adalah variabel yang menyimpan data untuk objek.
 
-• Metode adalah fungsi yang ditentukan dalam kelas yang dapat dipanggil oleh
-objek.
+• Metode adalah fungsi yang ditentukan dalam kelas yang dapat dipanggil oleh objek.
 
 Objek (Object)
 
@@ -27,7 +27,8 @@ Aksesibilitas
 • Protected: Dapat diakses oleh kelas itu sendiri dan kelas turunan.
 
 ## a. Jobsheet 1 : Menggunakan Konsep Kelas dan Objek dalam PHP
-Instruksi Kerja
+
+Instruksi kerja
 
 1. Membuat Class dan Object
    
@@ -68,7 +69,7 @@ OUTPUT
 
 ## b. Tugas 1
 
-intruksi Soal
+intruksi kerja
 
 1. Implementasikan kelas Dosen dengan atribut nama, nip, dan mataKuliah.
    
@@ -114,7 +115,7 @@ fungsi penting.
 
 ## a. Jobsheet 2 : Implementasi Prinsip OOP dalam PHP
 
-Instruksi
+Instruksi kerja
 
 1. Membuat Class dan Object
 
@@ -194,7 +195,7 @@ dengan menggunakan kelas abstrak atau antarmuka.
 
 ## a. Jobsheet 3 : Menerapkan Konsep Inheritance, Polymorphism, Encapsulation dan Abstraction dalam PHP
 
-Instruksi Kerja
+Instruksi kerja
 
 1. Inheritance
 
