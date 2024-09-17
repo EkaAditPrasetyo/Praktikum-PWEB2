@@ -1,6 +1,6 @@
 # Praktikum-PWEB2-TUGAS 1
 
-## **1. JOBSHEET 1**
+## **1. JOBSHEET 1 Konsep Kelas dan Objek dalam PHP**
 
 Kelas dan Objek dalam PHP
 Kelas (Class)
@@ -26,7 +26,7 @@ Aksesibilitas
 
 • Protected: Dapat diakses oleh kelas itu sendiri dan kelas turunan.
 
-## a. Jobsheet 1: Menggunakan Konsep Kelas dan Objek dalam PHP
+## a. Jobsheet 1 : Menggunakan Konsep Kelas dan Objek dalam PHP
 Instruksi Kerja
 
 1. Membuat Class dan Object
@@ -112,7 +112,7 @@ dalam class yang berbeda.
 - Abstraction: Menyembunyikan detail implementasi dan hanya menampilkan
 fungsi penting.
 
-## a. Jobsheet 2 Implementasi Prinsip OOP dalam PHP
+## a. Jobsheet 2 : Implementasi Prinsip OOP dalam PHP
 
 Instruksi
 
@@ -186,4 +186,88 @@ diperlakukan sebagai bentuk umum dan khusus sesuai kebutuhan.
 3. Encapsulation (Enkapsulasi)
 Encapsulation menyembunyikan detail internal dari sebuah objek dan hanya membiarkan interaksi melalui metode publik yang tersedia, menjaga data internal
 tetap aman dari perubahan tak terduga.
+
+4. Abstraction (Abstraksi)
+Abstraction adalah proses menyembunyikan detail implementasi internal dan hanya menampilkan fungsionalitas utama kepada pengguna. Ini biasanya dicapai
+dengan menggunakan kelas abstrak atau antarmuka.
+
+
+## a. Jobsheet 3 : Menerapkan Konsep Inheritance, Polymorphism, Encapsulation dan Abstraction dalam PHP
+
+Instruksi Kerja
+
+1. Inheritance
+
+o Buat kelas Person dengan atribut name dan metode getName().
+
+o Buat kelas Student yang mewarisi dari Person dan tambahkan atribut studentID
+serta metode getStudentID().
+
+2. Polymorphism
+
+o Buat kelas Teacher yang juga mewarisi dari Person dan tambahkan atribut
+teacherID.
+
+o Override metode getName() di kelas Student dan Teacher untuk menampilkan
+format berbeda.
+
+3. Encapsulation
+
+o Ubah atribut name dan studentID dalam kelas Student menjadi private.
+
+o Tambahkan metode setter dan getter untuk mengakses dan mengubah nilai
+atribut name dan studentID.
+
+4. Abstraction
+
+o Buat kelas abstrak Course dengan metode abstrak getCourseDetails().
+
+o Buat kelas OnlineCourse dan OfflineCourse yang mengimplementasikan
+getCourseDetails() untuk memberikan detail yang berbeda.
+
+PROGRAM
+
+<img width="283" alt="jobset3_1" src="https://github.com/user-attachments/assets/4003d1c0-e8dc-478f-bd7c-bd2cd411f7bd">
+
+<img width="297" alt="jobset3_2" src="https://github.com/user-attachments/assets/08db9650-5253-46e9-b7d1-cc37ab6a6f5a">
+
+<img width="389" alt="jobset3_3" src="https://github.com/user-attachments/assets/99453d20-1e01-4892-b273-224448dd0948">
+
+OUTPUT
+
+<img width="393" alt="output_jobset3" src="https://github.com/user-attachments/assets/5fe92f7e-cb2c-42b2-973f-04743fa91401">
+
+## b. Tugas 3 
+
+Intruksi kerja
+
+Buat proyek PHP dengan studi kasus sebagai berikut:
+
+1. Implementasikan kelas Person sebagai induk dari Dosen dan Mahasiswa.
+
+2. Gunakan konsep Inheritance untuk membuat hierarki kelas yang memungkinkan
+Dosen dan Mahasiswa memiliki atribut dan metode yang sesuai dengan perannya.
+
+3. Terapkan Polymorphism dengan membuat metode getRole() di kelas Person dan
+override metode ini di kelas Dosen dan Mahasiswa untuk menampilkan peran yang
+berbeda.
+
+4. Gunakan Encapsulation untuk melindungi atribut nidn di kelas Dosen dan nim di
+kelas Mahasiswa.
+
+5. Buat kelas abstrak Jurnal dan implementasikan konsep Abstraction dengan
+membuat kelas turunan JurnalDosen dan JurnalMahasiswa yang masing-masing
+memiliki cara tersendiri untuk mengelola pengajuan jurnal.
+
+PROGRAM 
+
+<img width="332" alt="jobset3_tugas3" src="https://github.com/user-attachments/assets/30f498b3-c93d-458b-9a0e-0646ab7ead2b">
+
+<img width="332" alt="jobset3_tugas3_2" src="https://github.com/user-attachments/assets/d4b0b19b-0d0c-45e2-82e1-912d47b536f2">
+
+<img width="467" alt="jobset3_tugas3_3" src="https://github.com/user-attachments/assets/23635a64-e7f4-4765-8a9c-14152f80d9f7">
+
+OUTPUT
+
+<img width="401" alt="output_tugas3" src="https://github.com/user-attachments/assets/925e1935-93e9-4f9b-8065-c6eeaa972959">
 
