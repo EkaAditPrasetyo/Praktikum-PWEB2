@@ -191,6 +191,16 @@ diinstansiasi.
 
 PROGRAM
 
+Langkah - langkah 
+- Membuat class mahasiswa yang didalamnya memuat properti nama,nim,jurusan yang memiliki aksesbilitas public kemudia merubah aksesbilitas menjadi private untuk intruksi kerja no.2.
+- Membuat constructor yang memuat parameter yang terdapat pada properti class mahasiswa.
+- Kemudian membuat method function tampilkanData().
+- Membuat method function Getter dan Setter. Getter adalah metode yang digunakan untuk mengambil nilai dari atribut privat di dalam class, sedangkan Setter adalah metode yang digunakan untuk mengubah nilai atribut privat di dalam class.
+- Selanjutnya membuat inheritance dengan manambahkan class baru yang nanti terdapat class turunan dari class baru tersebut. Caranya dengan sintaks nama class turunan extends ke class baru.Inheritance bermaksud class dapat mewarisi properti dan method yang dimiliki.
+- Untuk polymorphism, membuat class baru dengan nama pengguna_p yang memiliki method function aksesFitur. kemudian melakukan pewarisan (inheritance) dnegan membuat class turunan yang terextends ke class induk.
+- Abstraction digunakan untuk menyembunyikan detail teknis dari fungsi penting yang ada.
+- Instasiasi objek pada setiap fungsi tadi.
+
 <img width="348" alt="jobset2_1" src="https://github.com/user-attachments/assets/fa4a9f25-335e-4e9e-a28c-6d4dd2e83914">
 
 <img width="310" alt="jobset2_2" src="https://github.com/user-attachments/assets/6893dd0e-9e8f-4ee9-a4b2-1c6a7c5b2173">
@@ -201,23 +211,25 @@ OUTPUT
 
 <img width="415" alt="output_jobset2" src="https://github.com/user-attachments/assets/b7eaf847-a209-4e49-8b46-42991f09dbdc">
 
+Output yang tertampil sesuai dengan apa yang eksekusi pada instasiasi objek.
+
 ## **3. JOBSHEET 3 Konsep Inheritance, Polymorphism, Encapsulation dan Abstraction dalam PHP**
 
 1. Inheritance (Pewarisan)
 Inheritance adalah konsep di mana sebuah kelas dapat mewarisi atribut dan metode dari kelas lain. Ini memungkinkan penggunaan kembali kode dan
-menciptakan hubungan hierarkis antara kelas.
+menciptakan hubungan hierarkis antara kelas. Class yang mewarisi disebut induk class (parent), sedangkan class yang diwarisi disebut turunan class (child).
 
 2. Polymorphism (Polimorfisme)
 Polymorphism memungkinkan satu metode untuk memiliki banyak bentuk, biasanya melalui metode overriding di kelas turunan. Dengan ini, objek dapat
-diperlakukan sebagai bentuk umum dan khusus sesuai kebutuhan.
+diperlakukan sebagai bentuk umum dan khusus sesuai kebutuhan. Polymorphism memiliki dua jenis yaitu polymorphism statis dan polymorphism dinamis.
 
 3. Encapsulation (Enkapsulasi)
 Encapsulation menyembunyikan detail internal dari sebuah objek dan hanya membiarkan interaksi melalui metode publik yang tersedia, menjaga data internal
-tetap aman dari perubahan tak terduga.
+tetap aman dari perubahan tak terduga. Encapsulation memungkinkan pembatasan akses langsung ke beberapa komponen objek, yang biasanya dilakukan melalui access modifiers seperti private, protected, dan public.
 
 4. Abstraction (Abstraksi)
 Abstraction adalah proses menyembunyikan detail implementasi internal dan hanya menampilkan fungsionalitas utama kepada pengguna. Ini biasanya dicapai
-dengan menggunakan kelas abstrak atau antarmuka.
+dengan menggunakan kelas abstrak atau antarmuka. Hal ini dilakukan dengan menggunakan abstract classes dan interfaces, yang mendefinisikan perilaku apa yang harus dimiliki oleh class, tanpa menjelaskan bagaimana perilaku tersebut diimplementasikan.
 
 
 ## a. Jobsheet 3 : Menerapkan Konsep Inheritance, Polymorphism, Encapsulation dan Abstraction dalam PHP
