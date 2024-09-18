@@ -267,6 +267,13 @@ getCourseDetails() untuk memberikan detail yang berbeda.
 
 PROGRAM
 
+Langkah-langkah
+- Membuat class bernama Person yang memiliki properti nama dengan aksesbilitas protected, lalu membuat constructor, kemudian membuat method function getName.
+- Membuat class turunan Student yang extends ke class person yang memiliki properti tambahan yaitu studentid yang memiliki aksesbilitas private, buat constructor, membuat method function getName sebagai method warisan kemudian menambahkan method getStudentID dan setStudentID.
+- Kemudian membuat class turunan bernama Teacher extends class person. dan langkahnya sama seperti membuat class turunan strudent.
+- Abstraction, membuat class abstract course dengan memiliki abstract method function getCourseDetails yang nantinya menurunkan class abstract turunan yaitu onlineCourse dan offlineCourse dimana keduanya ter extends ke class induk yaitu Course.
+- Instasiasi objek.
+
 <img width="283" alt="jobset3_1" src="https://github.com/user-attachments/assets/4003d1c0-e8dc-478f-bd7c-bd2cd411f7bd">
 
 <img width="297" alt="jobset3_2" src="https://github.com/user-attachments/assets/08db9650-5253-46e9-b7d1-cc37ab6a6f5a">
