@@ -308,6 +308,14 @@ memiliki cara tersendiri untuk mengelola pengajuan jurnal.
 
 PROGRAM 
 
+Langkah-langkah
+
+- Membuat class person yang memiliki properti nama yang aksesbilitasnya protected, kemudian membuat class turunan dari person yaitu dosen dan mahasiwa dimana kedunya diwariskan properti dan method dari class induk(person).
+- Disetiap class turunan terdapat properti yang dibuat baru untuk memberikan role atau peran pada class tersebut.
+- Kemudian membuat class abstract jurnal dengan memiliki method function pengajuanJurnal.
+- Selanjutnya membuat class turunan jurnaldosen dan jurnalmahasiswa yang keduanya extends ke class abstract induk(jurnal). Dimana class turunannya diwariskan method yang ada pada class induk.
+- Instasiasi objek.
+
 <img width="332" alt="jobset3_tugas3" src="https://github.com/user-attachments/assets/30f498b3-c93d-458b-9a0e-0646ab7ead2b">
 
 <img width="332" alt="jobset3_tugas3_2" src="https://github.com/user-attachments/assets/d4b0b19b-0d0c-45e2-82e1-912d47b536f2">
