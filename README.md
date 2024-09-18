@@ -6,11 +6,12 @@ Kelas dan Objek dalam PHP
 
 Kelas (Class)
 
-• Struktur atau blueprint yang mendefinisikan atribut dan metode yang dimiliki oleh objek.
+• Struktur atau blueprint yang mendefinisikan atribut dan metode yang dimiliki oleh objek. Kelas juga dapat disebut juga sebagai cetakan yang nantinya 
+untuk membuat objek.
 
-• Atribut atau properties adalah variabel yang menyimpan data untuk objek.
+• Atribut atau properties adalah variabel yang menyimpan data untuk objek. Atribut memiliki nilai berbeda pada setiap objek.
 
-• Metode adalah fungsi yang ditentukan dalam kelas yang dapat dipanggil oleh objek.
+• Metode adalah fungsi yang ditentukan dalam kelas yang dapat dipanggil oleh objek. Metode digunakan untuk menggambarkan perilaku atau aksi yang dapat dilakukan oleh objek.
 
 Objek (Object)
 
@@ -20,7 +21,7 @@ Objek (Object)
 
 Aksesibilitas
 
-• Public: Dapat diakses dari mana saja atau umum.
+• Public: Dapat diakses secara umum.
 
 • Private: Hanya dapat diakses dalam kelas itu sendiri.
 
@@ -61,6 +62,19 @@ tampilkanData().
 
 PROGRAM 
 
+Langkah - langkah
+- Membuat class yang bernama Mahasiswa yang memiliki properties nama, nim dan jurusan yang setiap atributnya memiliki aksesbilitas public.
+- Menambahkan method tampilkanData(), kemudian Membuat constructor digunakan untuk memberi nilai awal pada saat objek dibuat yang memiliki parameter(argumen) dari properti class Mahasiswa kemudian dieksekusi seperti
+  
+  $this->nama = $nama;
+  $this->nim = $nim;
+  $this->jurusan = $jurusan; 
+- Menambahkan method function updateJurusan dengan mengisi parameter $jurusan. Serta menambahkan method function setter untuk menyuting Nim.
+- Untuk instasiasi objek dengan membuat objek $mahasiswa1 dengan sintaks $mahasiswa1 = new Mahasiswa yang memuat argumen didalam kurung buka dan tutup.
+- Kemudian untuk memunculkan update jurusan maka sintaks yang diterapkan $mahasiswa1->updateJurusan() yang memuat argumen jurusan yang akan diupdate didalam kurung buka dan tutup.
+- Langkah yang sama dengan update jurusan, untuk setNim gunakan sintaks $mahasiswa1->setNim() yang memuat argumen NIM yang akan diubah didalam kurung buka dan tutup.
+- Terakhir menampilkan data dengan echo $mahasiswa1->tampilkanData().
+  
 <img width="344" alt="jobse1" src="https://github.com/user-attachments/assets/49e32483-fc0c-4dcf-9208-106300dec995">
 
 OUTPUT
@@ -87,7 +101,16 @@ pembuatan kelas, penggunaan metode, dan hasil output.
 
 PROGRAM
 
-<img width="751" alt="jobset1_tugas1" src="https://github.com/user-attachments/assets/a1f211aa-e3cc-454a-8b84-c7e9e88873ee">
+Langkah - langkah
+
+- Membuat class Dosen yang didalamnya memuat properti nama, nip dan mataKuliah.
+- Manambahkan method function tampilkanDosen().
+- Kemudian menambahkan constructor, constructor akan dieksekusi terlebih dahulu. di constructor terdapat parameter yang terdapat pada properti class dosen.
+- Menampilkan instasiasi objek dengan membuat objek $dosen1 = new Dosen() yang didalam kurung buka dan tutup memuat argumen yang nantinya menjadi output program.
+  Kemudian tampilkan menggunakan echo $dosen1->tampilkanDosen().
+
+<img width="643" alt="jobset1_tugas1 2" src="https://github.com/user-attachments/assets/a53b5531-8d7d-4ad2-8d44-35bc8af92c52">
+
 
 OUTPUT
 
@@ -99,10 +122,10 @@ OUTPUT
    
 Class dan Object:
 
-• Class: Blueprint atau template untuk menciptakan objek.
+• Class: Blueprint atau template atau cetakan untuk menciptakan objek.
 
 • Object: Instance dari class yang memiliki atribut (properties) dan perilaku
-(methods).
+(methods). Objek disebut juga bentukan dari kelas.
 
 2. Prinsip OOP
 
