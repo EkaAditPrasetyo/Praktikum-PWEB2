@@ -67,6 +67,10 @@ OUTPUT
 
 <img width="432" alt="output_jobse1" src="https://github.com/user-attachments/assets/5bb79ccc-7f4d-42f7-a09b-f2c7cc6c2a1b">
 
+Untuk output pertama : menghasilkan data yang sebelum di update Jurusan dan Setter NIM.
+
+Untuk output kedua : mengahsilkan data yang telah diupdate Jurusan dan Setter NIM.
+
 ## b. Tugas 1
 
 intruksi kerja
