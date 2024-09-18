@@ -111,7 +111,7 @@ Langkah - langkah
 
 <img width="643" alt="jobset1_tugas1 2" src="https://github.com/user-attachments/assets/a53b5531-8d7d-4ad2-8d44-35bc8af92c52">
 
-Note : untuk comment di file program tugas 1 masih mahasiswa seharusnya dosen.
+Note : untuk comment di file program tugas 1 masih mahasiswa seharusnya dosen. Untuk screenshot diatas adalah program yang telah disesuaikan
 
 OUTPUT
 
