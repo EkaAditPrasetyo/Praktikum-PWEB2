@@ -271,7 +271,7 @@ PROGRAM
 Langkah-langkah
 - Membuat class bernama Person yang memiliki properti nama dengan aksesbilitas protected, lalu membuat constructor, kemudian membuat method function getName.
 - Membuat class turunan Student yang extends ke class person yang memiliki properti tambahan yaitu studentid yang memiliki aksesbilitas private, buat constructor, membuat method function getName sebagai method warisan kemudian menambahkan method getStudentID dan setStudentID.
-- Kemudian membuat class turunan bernama Teacher extends class person. dan langkahnya sama seperti membuat class turunan strudent.
+- Kemudian membuat class turunan bernama Teacher extends class person. dan langkahnya sama seperti membuat class turunan student.
 - Abstraction, membuat class abstract course dengan memiliki abstract method function getCourseDetails yang nantinya menurunkan class abstract turunan yaitu onlineCourse dan offlineCourse dimana keduanya ter extends ke class induk yaitu Course.
 - Instasiasi objek.
 
