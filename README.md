@@ -199,7 +199,7 @@ Langkah - langkah
 - Selanjutnya membuat inheritance dengan manambahkan class baru yang nanti terdapat class turunan dari class baru tersebut. Caranya dengan sintaks nama class turunan extends ke class baru.Inheritance bermaksud class dapat mewarisi properti dan method yang dimiliki.
 - Untuk polymorphism, membuat class baru dengan nama pengguna_p yang memiliki method function aksesFitur. kemudian melakukan pewarisan (inheritance) dnegan membuat class turunan yang terextends ke class induk.
 - Abstraction digunakan untuk menyembunyikan detail teknis dari fungsi penting yang ada.
-- Instasiasi objek pada setiap fungsi tadi.
+- Instasiasi objek untuk menampilkan objek yang akan terbentuk.
 
 <img width="348" alt="jobset2_1" src="https://github.com/user-attachments/assets/fa4a9f25-335e-4e9e-a28c-6d4dd2e83914">
 
